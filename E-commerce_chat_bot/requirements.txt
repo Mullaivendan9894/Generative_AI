@@ -1,0 +1,7 @@
+streamlit==1.45.1
+pandas==2.2.3
+groq==0.28.0
+chromadb==1.0.13
+sentence-transformers==4.1.0
+semantic-router==0.1.10
+sqlite3
