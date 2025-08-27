@@ -1,5 +1,5 @@
 import streamlit as st
-from faq_handling import ingest_faq_data, faq_chain_with_history, clear_chat_history
+
 from sql_handling import sql_chain_with_history
 from query_router import router
 from small_talk_handle import small_talk_chain_with_history
