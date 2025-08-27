@@ -1,3 +1,11 @@
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ModuleNotFoundError:
+    import sqlite3
+    print("Warning: pysqlite3 not found. Using standard sqlite3, which may cause issues with ChromaDB.")
+
 from groq import Groq
 from faq_handling import get_chat_history, add_chat_history
 import os
