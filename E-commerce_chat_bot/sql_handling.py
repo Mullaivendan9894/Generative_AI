@@ -5,7 +5,7 @@ from groq import Groq
 import os
 import re
 import streamlit as st
-from faq_handling import add_chat_history
+
 
 
 
