@@ -5,6 +5,7 @@
 # E-commerce Chatbot 🤖
 
 An intelligent chatbot for e-commerce support, built with Streamlit and Groq API.
+![app_screenshot.png](https://github.com/Mullaivendan9894/Generative_AI/blob/master/E-commerce_chat_bot/app_screenshot.png)
 
 ### 1. Features
 
