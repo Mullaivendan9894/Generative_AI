@@ -7,6 +7,12 @@
 An intelligent chatbot for e-commerce support, built with Streamlit and Groq API.
 ![app_screenshot.png](https://github.com/Mullaivendan9894/Generative_AI/blob/master/E-commerce_chat_bot/app_screenshot.png)
 
+##### Project Links 🔗
+
+*   **Live Demo:** [Experience the Chatbot](https://generativeai-e-com-chat-bot.streamlit.app/) 
+*   **LinkedIn Post:** [See my project post on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7208943790845571072/)
+*   **GitHub Repository:** [Source Code](https://github.com/Mullaivendan9894/Generative_AI/tree/master/E-commerce_chat_bot)
+
 ### 1. Features
 
 - **FAQ Handling**: Answers common questions using semantic search
@@ -52,13 +58,8 @@ The system leverages a powerful tech stack to make this possible:
 *   **Product Database:** SQLite
 *   **Language:** Python
 
-### 4. Project Links 🔗
 
-*   **Live Demo:** [Experience the Chatbot](https://generativeai-e-com-chat-bot.streamlit.app/) 
-*   **LinkedIn Post:** [See my project post on LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7208943790845571072/)
-*   **GitHub Repository:** [Source Code](https://github.com/Mullaivendan9894/Generative_AI/tree/master/E-commerce_chat_bot)
-
-### 5. Setup
+### 4. Setup
 
 1.  Clone the repository:
     <pre>
@@ -83,7 +84,7 @@ The system leverages a powerful tech stack to make this possible:
     streamlit run app.py
     </pre>
 
-### 6. File Structure
+### 5. File Structure
 <pre>
 ecommerce-chatbot/
 ├── .streamlit/
