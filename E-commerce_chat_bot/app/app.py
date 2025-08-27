@@ -1,3 +1,12 @@
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ModuleNotFoundError:
+    import sqlite3
+    print("Warning: pysqlite3 not found. Using standard sqlite3, which may cause issues with ChromaDB.")
+
+
 import streamlit as st
 from faq_handling import ingest_faq_data, faq_chain_with_history, clear_chat_history
 from sql_handling import sql_chain_with_history
