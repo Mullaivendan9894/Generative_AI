@@ -6,6 +6,14 @@ from chromadb.utils import embedding_functions
 from groq import Groq
 import os
 
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ModuleNotFoundError:
+    import sqlite3
+    print("Warning: pysqlite3 not found. Using standard sqlite3, which may cause issues with ChromaDB.")
+
 
 parent_path = Path(__file__).parent if ("__file__") in locals() else Path.cwd()
 faq_path = str(parent_path/ "resources/faq_data.csv")
