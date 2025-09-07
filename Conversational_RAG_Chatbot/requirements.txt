@@ -1,6 +1,6 @@
 streamlit==1.32.0
 langchain==0.1.16
-langchain_huggingface
+langchain-huggingface
 langchain-community==0.0.34
 langchain-core==0.1.45
 langchain-groq==0.1.3
